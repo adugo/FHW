@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguaje de Marcas</title>
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ebc8a0;
+            margin: 0;
+            padding: 0;
+            background-size: 200%;
+            height: 200%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="boton" href="../index.html">Inicio</a>
+        <a class="boton" href="./basededatos.html">Software ofimático</a>
+        <a class="boton" href="./lenguajedemarcas.html">Software de recuperación de datos y mantenimiento del sistema</a>
+        <a class="boton" href="./Utilidadesdeseguridad.html">Utilidades de seguridad</a>
+        <a class="boton" href="./Aplicacionesportables.html">Aplicaciones portables</a>
+    </header>
+    <nav>
+    <h1>Rufus</h1>
+        <h2>¿Qué es Rufus?</h2>
+        <p>Rufus es una utilidad que le ayuda a formatear y crear soportes USB de arranque, como «pendrives», tarjetas de memoria, etcétera. Es especialmente útil en casos donde: necesite crear medios de instalación USB a partir de ISOs arrancables (Windows, Linux, UEFI, etc.)</p>
+        <h2>¿Como instalar Rufus?</h2>
+        <p>Para utilizar Rufus, primero tienes que haber descargado la imagen ISO que quieras utilizar para crear un USB ejecutable con ella.</p>
+        <p>Aqui te dejo algunos enlaces para descargar las ISOs más usuales :</p>
+        <li><a href="https://www.microsoft.com/es-es/software-download/windows10">Windows10</a></li>
+        <li><a href="https://www.microsoft.com/es-es/software-download/windows11">windows11</a></li>
+        <li><a href="https://ubuntu.com/download/desktop">Ubuntu 22.04</a></li>
+        <p>A continuación, tienes que ir a la <a href="https://rufus.ie/es/">web oficial de Rufus</a>. En ella baja hasta el apartado Descargar, y pulsa sobre la versión que quieres bajarte, la completa y normal o la portátil para llevar en un USB y está preparada para funcionar desde una unidad externa que luego metas en un ordenador con Windows. Realmente no hay mucha diferencia entre ambas, sólo que la portátil está optimizada para usarse a través de unidades externas.</p>
+        <img src="https://i.blogs.es/3fd549/descargar/1366_2000.jpg" class="foto">
+        <p>Cuando descargues la aplicación no la tienes que instalar. Simplemente pulsa sobre el archivo .exe y arrancará. Lo primero que verás es una ventana de actualización donde puedes hacer que Rufus use la conexión a Internet de tu ordenador para ver si hay versiones nuevas. Si te lo acabas de descargar de la web, no hace falta que hagas la comprobación.</p>
+        <img src="https://i.blogs.es/8f0ce8/buscar-actualizaciones/1366_2000.jpg" class="foto">
+        <p>Ahora mete el USB en el ordenador para que se activen todas las opciones, verás que este aparece donde pone Dispositivo arriba del todo. A continuación, selecciona una opción en Elección de arranque, que puede ser utilizar una imagen como no autoejecutable, instalar FreeDOS (la versión libre y gratis del viejo MSDOS), o Disco o imagen ISO, que es la que debes elegir para crear un USB de arranque. Ahora, pulsa en el botón Seleccionar una vez elijas una de las opciones.</p>
+        <img src="https://i.blogs.es/1a69f8/pulsa-seleccionar/1366_2000.jpg" class="foto">
+        <p>Cuando pulses en seleccionar, se abrirá una ventana del explorador para que busques y selecciones la imagen .ISO que quieres utilizar para crear el USB de arranque. Para seleccionarla simplemente haz doble click sobre ella.</p>
+        <img src="https://i.blogs.es/8315c7/elige-la-iso/1366_2000.jpg" class="foto">
+        <p>Tras elegir la imagen, si tienes conocimientos avanzados puedes elegir el esquina de partición, aunque no es necesario cambiarlo en la mayoría de los casos. También puedes desplegar un menú propiedades avanzadas para detectar discos duros o hacer que el USB sea compatible con versiones antiguas de BIOS. Pero de nuevo, para la mayoría de casos en los que quieras crear un USB de arranque o booteable no vas a necesitar nada de esto.</p>
+        <img src="https://i.blogs.es/131a55/opciones-avanzadas/1366_2000.jpg" class="foto">
+        <p>El siguiente paso importante es elegir un sistema de archivos para cuando se formatee tu USB antes de instalar en él la imagen ISO que hayas seleccionado. Por defecto se utilizará el viejo FAT32, aunque también tendrás opción de utilizar el NTFS de Windows. A la derecha, también tendrás una opción para cambiar el tamaño del clúster a la hora de formatear, aunque esto no es necesario tampoco que lo toques para crear las unidades de arranque.</p>
+        <img src="https://i.blogs.es/2b7505/sistema-de-archivos/1366_2000.jpg" class="foto">
+        <p>Recuerda que al final las opciones importantes son tres. Primero elegir el tipo de arranque que quieres, luego seleccionar para buscar la imagen ISO que quieres utilizar en el USB, y por último decidir el sistema de archivos que vas a utilizar. Cuando termines de repasarlo todo, pulsa en el botón Empezar para que Rufus inicie la creación del USB de arranque.</p>
+        <img src="https://i.blogs.es/41f0f8/empezar/1366_2000.jpg" class="foto">
+        <p>En algunas ocasiones hará falta algún tipo de movimiento extra, y Rufus te avisará con un mensaje en el que te lo explican todo claramente. Por ejemplo, en la prueba hemos utilizado una ISO de la distribución Ubuntu, y nos avisa de que puedes utilizarla de diferentes maneras y siempre te recomienda una.</p>
+        <img src="https://i.blogs.es/878d19/advertencia/1366_2000.jpg" class="foto">
+        <p>Y ya está, luego se pondrá a trabajar y a grabar la ISO en el disco. Aquí, cuando la barra verde de Estado se complete será porque ha terminado de crear el USB, y podrás sacarlo para empezar a utilizarlo o grabar por encima.</p>
+        <img src="https://i.blogs.es/00e5b3/terminado/1366_2000.jpg" class="foto">
+    </nav>     
+    <footer>
+        <p><strong>&copy; 2023 - Todos los derechos reservados.</strong></p>
+
+    </footer>
+</body>
+
+</html>
